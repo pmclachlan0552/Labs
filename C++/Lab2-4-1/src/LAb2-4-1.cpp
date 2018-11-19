@@ -7,33 +7,21 @@
 //============================================================================
 
 #include <iostream>
-#include <bitset>
 using namespace std;
 
 int main() {
-	unsigned long long n;
-	int i=0;
+	unsigned long I, O, mask;
+	O=0;
+	mask=1;
 	cout << "Input n:";
-	cin >> n;
-
-	bitset<32> bit (n);
-	bitset<32> bitmask(~0);
-
-
-	for(int c=1; c<=32;c++){
-		if((bit&bitmask)==1){
-			i++;
-			bit << 1;
-			bitmask << 1;
-
+	cin >> I;
+	for(int c=32; c>0;c--){
+		if((I & mask)!=0){
+			O++;
 		}
-		else{
-			bit << 1;
-			bitmask << 1;
-
+		mask=mask << 1;
 		}
-	}
-	cout << i << endl;
+	cout << O << endl;
 	return 0;
 }
 

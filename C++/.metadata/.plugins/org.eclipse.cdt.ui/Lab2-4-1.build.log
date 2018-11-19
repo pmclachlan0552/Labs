@@ -1,7 +1,1 @@
-13:52:11 **** Incremental Build of configuration Debug for project Lab2-4-1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LAb2-4-1.o" "..\\src\\LAb2-4-1.cpp" 
-g++ -o Lab2-4-1.exe "src\\LAb2-4-1.o" 
-
-13:52:11 Build Finished (took 784ms)
-
+Info: Nothing to build for Lab2-4-1

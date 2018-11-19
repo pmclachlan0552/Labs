@@ -1,10 +1,1 @@
-13:45:56 **** Incremental Build of configuration Debug for project Lab2-4-2 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab2-4-2.o" "..\\src\\Lab2-4-2.cpp" 
-..\src\Lab2-4-2.cpp: In function 'int main()':
-..\src\Lab2-4-2.cpp:20:18: error: 'ispalindrome' cannot be used as a function
-  ispalindrome(val);
-                  ^
-
-13:45:56 Build Finished (took 354ms)
-
+Info: Nothing to build for Lab2-4-2
