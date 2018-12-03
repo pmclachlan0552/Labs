@@ -1,7 +1,7 @@
-13:01:48 **** Rebuild of configuration Debug for project Lab1-3-1 ****
+12:17:34 **** Incremental Build of configuration Debug for project Lab1-3-1 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab 1-3-1.o" "..\\src\\Lab 1-3-1.cpp" 
 g++ -o Lab1-3-1.exe "src\\Lab 1-3-1.o" 
 
-13:01:49 Build Finished (took 1s.320ms)
+12:17:35 Build Finished (took 1s.41ms)
 
