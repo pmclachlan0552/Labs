@@ -1,7 +1,1 @@
-12:17:38 **** Rebuild of configuration Debug for project Lab1-4-2 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab1-4-2.o" "..\\src\\Lab1-4-2.cpp" 
-g++ -o Lab1-4-2.exe "src\\Lab1-4-2.o" 
-
-12:17:39 Build Finished (took 970ms)
-
+Info: Nothing to build for Lab1-4-2

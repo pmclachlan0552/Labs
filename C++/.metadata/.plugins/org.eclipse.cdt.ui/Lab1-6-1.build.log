@@ -1,7 +1,7 @@
-12:17:39 **** Rebuild of configuration Debug for project Lab1-6-1 ****
+12:42:11 **** Rebuild of configuration Debug for project Lab1-6-1 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lab 1-6-1.o" "..\\src\\Lab 1-6-1.cpp" 
-Command canceled
+g++ -o Lab1-6-1.exe "src\\Lab 1-6-1.o" 
 
-12:17:39 Build Finished (took 367ms)
+12:42:12 Build Finished (took 733ms)
 
