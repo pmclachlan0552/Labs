@@ -8,8 +8,8 @@
 
 #include <iostream>
 #include <string>
-#include<ctime>
-#include<cstdlib>
+#include <ctime>
+#include <cstdlib>
 using namespace std;
 int a=0, b=0, k=0, d=0, e=0, f=0, g=0, h=0, i=0, v=0, p, x=0, t=0,
 		I=0, II=0, III=0, IV=0, V=0, VI=0, VII=0, VIII=0, IX=0,
