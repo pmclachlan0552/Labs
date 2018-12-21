@@ -25,7 +25,7 @@ int main() {
    }
    if(h!=n){
     if(h>1){
-     for(int b=(h-1);b>0;b--){cout << " ";}
+     for(int b=(h-1);b>0;b--){ cout << " ";}
      cout << "*";
      for( int b=2*(n-h)-1;b>=1;b--){cout << " ";} //# of _ before,between, after *
      cout << "*";
@@ -36,7 +36,8 @@ int main() {
     for(int b=0;b<(n*2)-1;b++){cout << "*";} // # of * for bottom layer
     cout << " "; //# of spaces between bottom layer
    }
-  }cout << endl;
+  }
+  cout << endl;
  }
  return 0;
 }
